@@ -1,0 +1,22 @@
+{
+  "name": "lengnef • Góc việt hóa font",
+  "short_name": "lengnef • Góc việt hóa font",
+  "id": "/font/",
+  "scope": "/font/",
+  "start_url": "/font/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
