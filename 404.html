@@ -4,22 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" href="images/icon.png">
-  <title>lengnef • Góc việt hóa font</title>
+  <title>404 - lengnef • Góc việt hóa font</title>
   <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
   <style>
     :root {
-      --bg: #ffffff;
-      --primary: #994f36;
-      --muted: #b0786b;
-      --border: #e8d8ce;
-      --accent: #c97a5e;
-      --style: #f4ede5;
-      --white: #ffffff;
-      --btndl-gradient: linear-gradient(130deg, #eb9373, #cf795c);
-      --bluegradient: linear-gradient(90deg, #549bff, #2a81ff);
-      --shadow: rgba(189,103,75,0.12);
-    }
+  --bg: #ffffff;
+  --text: #994f36;
+  --muted: #b0786b;
+  --card-bg: #ffffff;
+  --border: #e8d8ce;
+  --accent: #c97a5e;
+  --style: #f4ede5;
+  --white: #ffffff;
+  --btndl-gradient: linear-gradient(130deg, #eb9373, #cf795c);
+  --bluegradient: linear-gradient(90deg, #549bff, #2a81ff);
+  --shadow: rgba(189,103,75,0.12);
+  --shadow-hover: rgba(153, 79, 54, 0.2);
+}
 
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -44,26 +46,6 @@
       text-align: center;
       position: relative;
       overflow: hidden;
-    }
-
-    .page-404::before {
-      content: '';
-      position: absolute;
-      width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(235,147,115,0.18), transparent 90%);
-      top: -150px; right: -150px;
-      border-radius: 50%;
-      pointer-events: none;
-    }
-
-    .page-404::after {
-      content: '';
-      position: absolute;
-      width: 500px; height: 500px;
-      background: radial-gradient(circle, rgba(201,122,94,0.14), transparent 90%);
-      bottom: -100px; left: -100px;
-      border-radius: 50%;
-      pointer-events: none;
     }
 
     .big-number {
@@ -105,7 +87,7 @@
       font-family: 'Manrope', sans-serif;
       font-weight: 700;
       font-size: clamp(1.5rem, 3.5vw, 2.4rem);
-      color: var(--primary);
+      color: var(--text);
       margin-bottom: 12px;
       position: relative;
       z-index: 1;
@@ -138,9 +120,8 @@
       font-family: 'Manrope', sans-serif;
       text-decoration: none; border: none; cursor: pointer;
       transition: all 0.22s ease;
-      box-shadow: 0 4px 14px rgba(197,118,91,0.35);
     }
-    .btn-home:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(197,118,91,0.45); }
+    .btn-home:hover { transform: translateY(-3px); box-shadow: 0 4px 20px rgba(197,118,91,0.3); }
 
     .btn-back {
       display: inline-flex; align-items: center; gap: 8px;
@@ -151,32 +132,6 @@
       cursor: pointer; transition: all 0.22s ease;
     }
     .btn-back:hover { background: var(--border); transform: translateY(-3px); }
-
-    /* Floating tags */
-    .floating-fonts {
-      position: absolute; inset: 0;
-      overflow: hidden; pointer-events: none; z-index: 0;
-    }
-
-    .float-tag {
-      position: absolute;
-      background: rgba(244,237,229,0.65);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 4px 12px;
-      font-size: 0.72rem;
-      color: var(--muted);
-      white-space: nowrap;
-      opacity: 0;
-      animation: floatTag linear infinite;
-    }
-
-    @keyframes floatTag {
-      0%   { opacity: 0; transform: translateY(30px); }
-      15%  { opacity: 0.65; }
-      85%  { opacity: 0.65; }
-      100% { opacity: 0; transform: translateY(-40px); }
-    }
 
     /* FOOTER */
     footer {
@@ -218,10 +173,7 @@
 
 <script>
   const names = [
-    'LF Rancho','LF Satisfy','LF Cezanne','LF Migra','LF Bridget',
-    'LF Oregano','LF Amoresa','LF Archer','LF Playful','LF Shantay',
-    'LF Klaristha','LF Gelato Fresco','LF Cadet','LF Cyrene','LF Glifta',
-    'LF Rochester','LF Heycomic','LF Losbanditos','LF Monarda','LF Verlag'
+
   ];
   const container = document.getElementById('floatingFonts');
   names.forEach((name, i) => {
