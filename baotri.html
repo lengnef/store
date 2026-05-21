@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <title>Bảo trì - lengnef • Góc việt hóa font</title>
+  <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+  --bg: #ffffff;
+  --text: #994f36;
+  --muted: #b0786b;
+  --card-bg: #ffffff;
+  --border: #e8d8ce;
+  --accent: #c97a5e;
+  --style: #f4ede5;
+  --white: #ffffff;
+  --btndl-gradient: linear-gradient(130deg, #eb9373, #cf795c);
+  --bluegradient: linear-gradient(90deg, #549bff, #2a81ff);
+  --shadow: rgba(189,103,75,0.12);
+  --shadow-hover: rgba(153, 79, 54, 0.2);
+}
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background-color: var(--bg);
+      font-family: 'Manrope', sans-serif;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      letter-spacing: 0.3px;
+    }
+
+    /* HEADER */
+    header {
+      background: linear-gradient(135deg, rgba(234,224,214,0.7) 0%, rgba(255,248,241,0.7) 100%);
+      backdrop-filter: blur(16px);
+      border-bottom: 1.5px solid var(--border);
+      padding: 0 40px;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 4px 20px var(--shadow);
+      flex-shrink: 0;
+    }
+
+    .header-left { display: flex; align-items: center; gap: 14px; flex-shrink: 0; }
+
+    .logo-img { width: 180px; flex-shrink: 0; overflow: hidden; }
+    .logo-img img { width: 100%; object-fit: cover; }
+
+    .brand-slogan {
+        font-family: 'LF Rancho', sans-serif;
+        margin-top: 30px;
+        font-size: 1.6rem;
+        color: var(--text);
+        white-space: nowrap;
+    }
+
+    .header-right { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+
+    .btn-header {
+      display: flex; align-items: center; gap: 6px;
+      padding: 8px 16px; border-radius: 30px;
+      font-size: 0.9rem; font-family: 'Manrope', sans-serif;
+      cursor: pointer; transition: all 0.22s ease;
+      border: none; text-decoration: none; white-space: nowrap;
+    }
+
+    .btn-zalo { background: #e8f4fd; color: #0068ff; border: 1px solid #b0d1ff; }
+    .btn-zalo:hover { background: var(--bluegradient); color: white; transform: translateY(-2px); }
+
+    .btn-request { background: var(--style); color: var(--text); border: 1px solid var(--border); }
+    .btn-request:hover { color: var(--white); background: var(--btndl-gradient); transform: translateY(-2px); }
+
+    /* MAIN */
+    .page-maintenance {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* Spinning gear icon */
+    .gear-wrap {
+      position: relative;
+      z-index: 1;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: -8px;
+    }
+
+    .gear-big {
+      font-size: 90px;
+      color: var(--border);
+      animation: spinGear 5s linear infinite;
+      line-height: 1;
+      display: block;
+    }
+
+    .gear-small {
+      font-size: 52px;
+      color: var(--accent);
+      animation: spinGearReverse 3.5s linear infinite;
+      line-height: 1;
+      display: block;
+      margin-left: -18px;
+      margin-top: 20px;
+    }
+
+    @keyframes spinGear {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(360deg); }
+    }
+
+    @keyframes spinGearReverse {
+      from { transform: rotate(0deg); }
+      to   { transform: rotate(-360deg); }
+    }
+
+    .title-maintenance {
+      font-family: 'Manrope', sans-serif;
+      font-weight: 800;
+      font-size: clamp(1.6rem, 4vw, 2.6rem);
+      color: var(--text);
+      margin-bottom: 12px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .desc-maintenance {
+      color: var(--muted);
+      font-size: 1rem;
+      max-width: 800px;
+      line-height: 1.8;
+      margin-bottom: 36px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .desc-maintenance strong {
+      color: var(--text);
+      font-weight: 600;
+    }
+
+    /* Progress bar */
+    .progress-wrap {
+      width: 320px;
+      max-width: 90vw;
+      margin-bottom: 32px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .progress-label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+    }
+
+    .progress-bar {
+      height: 8px;
+      background: var(--border);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .progress-fill {
+      height: 100%;
+      background: var(--btndl-gradient);
+      border-radius: 20px;
+      width: 0%;
+      animation: fillBar 2.5s ease forwards;
+    }
+
+    @keyframes fillBar {
+      to { width: 90%; }
+    }
+
+    /* Social buttons */
+    .social-wrap {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      justify-content: center;
+      position: relative;
+      z-index: 1;
+    }
+
+    .btn-social {
+      display: inline-flex; align-items: center; gap: 8px;
+      padding: 10px 22px; border-radius: 50px;
+      font-size: 0.9rem; font-family: 'Manrope', sans-serif; font-weight: 600;
+      text-decoration: none; border: none; cursor: pointer;
+      transition: all 0.22s ease;
+    }
+
+    .btn-fb {
+      background: #e8f4fd; color: #0068ff;
+      border: 1.5px solid #b0d1ff;
+    }
+    .btn-fb:hover { background: var(--bluegradient); color: white; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,104,255,0.2); }
+
+    .btn-mess {
+      background: var(--style); color: var(--text);
+      border: 1.5px solid var(--border);
+    }
+    .btn-mess:hover { background: var(--btndl-gradient); color: white; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(197,118,91,0.3); }
+
+    /* FOOTER */
+    footer {
+      background: var(--white);
+      border-top: 1.5px solid var(--border);
+      padding: 20px 40px;
+      text-align: center;
+      flex-shrink: 0;
+    }
+    .footer-text { font-size: 13px; color: var(--muted); }
+
+    @media (max-width: 640px) {
+      header { padding: 12px 18px; height: auto; flex-wrap: wrap; gap: 10px; }
+      .header-right { width: 100%; justify-content: center; flex-wrap: wrap; }
+      .btn-header { font-size: 12px; padding: 7px 12px; }
+      .page-maintenance { padding: 40px 18px; }
+      footer { padding: 16px 18px; }
+      .gear-big { font-size: 68px; }
+      .gear-small { font-size: 40px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="header-left">
+    <div class="logo-img"><img src="images/logo.png" alt="lengnef"></div>
+    <div class="brand-slogan">• Góc việt hóa font</div>
+  </div>
+  <div class="header-right">
+    <a href="https://www.facebook.com/messages/t/61586508361509" class="btn-header btn-zalo" target="_blank">
+      <i class="ri-messenger-fill"></i> Mess
+    </a>
+    <a href="https://www.facebook.com/61586508361509" class="btn-header btn-zalo" target="_blank">
+      <i class="ri-facebook-circle-fill"></i> Fanpage
+    </a>
+    <a href="https://forms.gle/vtBohfH32rNz1Kar8" class="btn-header btn-request" target="_blank">
+      <i class="ri-pen-nib-fill"></i> Yêu cầu việt hóa
+    </a>
+  </div>
+</header>
+
+<section class="page-maintenance">
+  <div class="floating-fonts" id="floatingFonts"></div>
+
+  <div class="gear-wrap">
+    <i class="ri-settings-3-fill gear-big"></i>
+    <i class="ri-settings-fill gear-small"></i>
+  </div>
+
+  <h1 class="title-maintenance">Website đang bảo trì</h1>
+  <p class="desc-maintenance">
+    Trang web đang được nâng cấp và cập nhật thêm font mới.<br>
+    <i class="ri-flight-takeoff-line"></i> Trong lúc chờ đợi thì bạn đi du lịch đi, đi chơi cho khuây khỏa rồi về tải font sau.
+  </p>
+
+  <div class="progress-wrap">
+    <div class="progress-label">
+      <span>Tiến độ cập nhật</span>
+      <span id="pct">0%</span>
+    </div>
+    <div class="progress-bar">
+      <div class="progress-fill" id="progressFill"></div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-text">© Copyright by lengnef • 2026</div>
+</footer>
+
+<script>
+  // Floating font names
+  const names = [
+
+  ];
+  const container = document.getElementById('floatingFonts');
+  names.forEach((name, i) => {
+    const tag = document.createElement('span');
+    tag.className = 'float-tag';
+    tag.textContent = name;
+    tag.style.left = `${3 + (i * 4.7) % 92}%`;
+    tag.style.top  = `${8 + (i * 8.1) % 84}%`;
+    tag.style.animationDelay = `${i * 0.5}s`;
+    tag.style.animationDuration = `${7 + (i % 5)}s`;
+    container.appendChild(tag);
+  });
+
+  // Animate progress % counter
+  const target = 90;
+  const pct = document.getElementById('pct');
+  let current = 0;
+  const timer = setInterval(() => {
+    current++;
+    pct.textContent = current + '%';
+    if (current >= target) clearInterval(timer);
+  }, 2500 / target);
+</script>
+</body>
+</html>
