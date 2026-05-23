@@ -3,7 +3,7 @@
    ═══════════════════════════════════════ */
 
 const FONTS = [
-{ name: "LF tên font",              styles: 1, image: "images/font001.jpg",             id: "abcdèchido" },
+  { name: "LF Argue",                styles: 1, image: "images/lfargue.jpg",               id: "18fd6GxSEkE9lLK6AZch_QrHajVi-64IG" },
   { name: "LF Plumage",              styles: 1, image: "images/lfplumage.jpg",             id: "15XwyGSwVEeoCgit1D34sMqNZ6KhjRyyS" },
   { name: "LF Christmas Fecsival",   styles: 1, image: "images/lfchristmasfecsival.jpg",   id: "1EXihNccGiplbWVjKZvad1J5-wh2Izn0q" },
   { name: "LF Winstgue",             styles: 1, image: "images/lfwinstgue.jpg",            id: "13mj7EYg-XNIJTfEH2qiy9byKmHIvEvWR" },
