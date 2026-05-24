@@ -45,7 +45,7 @@ const FONTS = [
   { name: "LF Glifta",               styles: 2, image: "images/lfglifta.jpg",              font: "fonts/LF Glifta Regular.ttf",      id: "LF Glifta.zip" },
   { name: "LF Glitzier",             styles: 1, image: "images/lfglitzier.jpg",            font: "fonts/LF Glitzier.ttf",            id: "LF Glitzier.ttf" },
   { name: "LF Hatter Display Pro",   styles: 1, image: "images/lfhatterdisplaypro.jpg",    font: "fonts/LF Hatter Display Pro.ttf",  id: "LF Hatter Display Pro.ttf" },
-  { name: "LF Heycomic",             styles: 1, image: "images/lfheycomic.jpg",            font: "fonts/LF Heycomic.ttf",            id: "LF Heycomic.ttf" },
+  { name: "LF Heycomic",             styles: 1, image: "images/lfheycomic.jpg",            font: "fonts/LF Hey Comic.ttf",            id: "LF Hey Comic.ttf" },
   { name: "LF Hit The Road",         styles: 1, image: "images/lfhittheroad.jpg",          font: "fonts/LF Hit The Road.ttf",        id: "LF Hit The Road.ttf" },
   { name: "LF Huggie Bunny",         styles: 1, image: "images/lfhuggiebunny.jpg",         font: "fonts/LF Huggie Bunny.ttf",        id: "LF Huggie Bunny.ttf" },
   { name: "LF Jambie",               styles: 1, image: "images/lfjambie.jpg",              font: "fonts/LF Jambie.ttf",              id: "LF Jambie.ttf" },
@@ -303,3 +303,14 @@ previewSize.addEventListener('input', () => {
 
 // ─── Init ───
 renderFonts(FONTS);
+
+// BACK TO TOP
+const backToTopBtn = document.querySelector('.backtotop-btn');
+
+window.addEventListener('scroll', () => {
+    backToTopBtn.style.display = window.scrollY > 800 ? 'flex' : 'none';
+});
+
+backToTopBtn.addEventListener('click', () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+});
