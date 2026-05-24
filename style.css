@@ -603,3 +603,23 @@ footer {
 .card-preview.preview-text-mode .preview-text-label {
   display: flex;
 }
+
+/* BACKTOTOP */
+.backtotop-btn {
+  -webkit-tap-highlight-color: transparent;
+  position: fixed;
+  bottom: 30px;
+  right: 1.5rem;
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: none;
+  color: #eeede9;
+  background: var(--btndl-gradient);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
