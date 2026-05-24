@@ -20,9 +20,9 @@ function loadFontIfNeeded(fontName, fontFile) {
 const FONTS = [
 
   { name: "LF Plumage",              styles: 1, image: "images/lfplumage.jpg",             font: "fonts/LF Plumage.ttf",             id: "LF Plumage.ttf" },
-  { name: "LF Christmas Fecsival",   styles: 1, image: "images/lfchristmasfecsival.jpg",   font: "fonts/LF Christmas Fecsival.ttf",  id: "Christmas Fecsival.ttf" },
-  { name: "LF Winstgue",             styles: 1, image: "images/lfwinstgue.jpg",            font: "fonts/LF Winstgue.ttf",            id: "Winstgue.ttf" },
-  { name: "LF Berishye",             styles: 1, image: "images/lfberishye.jpg",            font: "fonts/LF Berishye.ttf",            id: "Berishye.ttf" },
+  { name: "LF Christmas Fecsival",   styles: 1, image: "images/lfchristmasfecsival.jpg",   font: "fonts/LF Christmas Fecsival.ttf",  id: "LF Christmas Fecsival.ttf" },
+  { name: "LF Winstgue",             styles: 1, image: "images/lfwinstgue.jpg",            font: "fonts/LF Winstgue.ttf",            id: "LF Winstgue.ttf" },
+  { name: "LF Berishye",             styles: 1, image: "images/lfberishye.jpg",            font: "fonts/LF Berishye.ttf",            id: "LF Berishye.ttf" },
   { name: "LF Queen Of Silence",     styles: 1, image: "images/lfqueenofsilence.jpg",      font: "fonts/LF Queen Of Silence.ttf",    id: "LF Queen Of Silence.ttf" },
   { name: "LF Tisk",                 styles: 1, image: "images/lftisk.jpg",                font: "fonts/LF Tisk.ttf",                id: "LF Tisk.ttf" },
   { name: "LF Cezanne",              styles: 1, image: "images/lfcezanne.jpg",             font: "fonts/LF Cezanne.ttf",             id: "LF Cezanne.ttf" },
