@@ -75,7 +75,7 @@ const FONTS = [
   { name: "LF Sue Ellen Francisco",  styles: 1, image: "images/lfsueellenfrancisco.jpg",   font: "fonts/LF Sue Ellen Francisco.ttf", id: "1xBwf2jrsMLtmnqwdw54VvFud4L2OYCZT" },
   { name: "LF TAN Jambore",          styles: 1, image: "images/lftanjambore.jpg",          font: "fonts/LF TAN Jambore.ttf",         id: "1MbDUKCG0a7quZjb3217aLEdBpSiWfFRj" },
   { name: "LF Amigh",                styles: 1, image: "images/lfamigh.jpg",               font: "fonts/LF Amigh.ttf",               id: "10m8rTbg41ctc8StnOOGdnHat6mDUJGiC" },
-  { name: "LF Tratex",               styles: 1, image: "images/lftratex.jpg",              font: "fonts/LF Tratex.ttf",              id: "https://drive.google.com/drive/folders/1YDRuZ9j2_RBCMRPZ56WrgBtY0wzbU0tD?usp=drive_link" },
+  { name: "LF Tratex",               styles: 1, image: "images/lftratex.jpg",              font: "fonts/LF Tratex Svart.ttf",        id: "https://drive.google.com/drive/folders/1YDRuZ9j2_RBCMRPZ56WrgBtY0wzbU0tD?usp=drive_link" },
   { name: "LF Verlag",               styles: 2, image: "images/lfverlag.jpg",              font: "fonts/LF Verlag Bold.ttf",         id: "https://drive.google.com/drive/folders/1bj7AsDngBusdnoaO_AOkQ7TtRB6XEbqF?usp=drive_link" },
   { name: "LF Vintage Goods",        styles: 1, image: "images/lfvintagegoods.jpg",        font: "fonts/LF Vintage Goods.ttf",       id: "1kucUssY7VNi2c-Sdtz63YJxu06D8UdEE" },
   { name: "LF Ahsing",               styles: 1, image: "images/lfahsing.jpg",              font: "fonts/LF Ahsing.ttf",              id: "17PKt-GA5s7G1kpurjqixIjr-qcwoSiEM" },
