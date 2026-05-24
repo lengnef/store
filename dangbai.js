@@ -101,7 +101,7 @@ function styleLabel(n) {
 }
 
 function getDownloadUrl(id) {
-  return id ? `https://lengnef.github.io/store/${id}` : '#';
+  return id ? `https://lengnef.github.io/store/fonts/${id}` : '#';
 }
 
 function createCard(font, index) {
