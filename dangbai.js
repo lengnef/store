@@ -18,7 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-  { name: "LF Galiano Text",        styles: 1, image: "images/LFGalianoText.jpg",          font: "fonts/LF Galiano Text.ttf",        id: "LF Galiano Text.ttf" },
+  { name: "LF Galiano Text",         styles: 1, image: "images/LFGalianoText.jpg",         font: "fonts/LF Galiano Text.ttf",        id: "LF Galiano Text.ttf" },
   { name: "LF Vermin Verile",        styles: 1, image: "images/LFVerminVerile.jpg",        font: "fonts/LF Vermin Verile.ttf",       id: "LF Vermin Verile.ttf" },
   { name: "LF Viva La Fiesta",       styles: 1, image: "images/LFVivaLaFiesta.jpg",        font: "fonts/LF Viva La Fiesta - Uno Base.ttf",            id: "LF Viva La Fiesta - Uno Base.ttf" },
   { name: "LF Axel",                 styles: 1, image: "images/LFAxel.jpg",                font: "fonts/LF Axel Regular.ttf",        id: "LF Axel.zip" },
