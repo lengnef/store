@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Maison Neue Book",     styles: 1, image: "images/LFMaisonNeueBook",          font: "fonts/LF Maison Neue Book.ttf",    id: "LF Maison Neue Book.ttf" },
   { name: "LF Galiano Text",         styles: 1, image: "images/LFGalianoText.jpg",         font: "fonts/LF Galiano Text.ttf",        id: "LF Galiano Text.ttf" },
   { name: "LF Vermin Verile",        styles: 1, image: "images/LFVerminVerile.jpg",        font: "fonts/LF Vermin Verile.ttf",       id: "LF Vermin Verile.ttf" },
   { name: "LF Axel",                 styles: 2, image: "images/LFAxel.jpg",                font: "fonts/LF Axel Regular.ttf",        id: "LF Axel.zip" },
