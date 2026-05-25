@@ -20,7 +20,6 @@ function loadFontIfNeeded(fontName, fontFile) {
 const FONTS = [
   { name: "LF Galiano Text",         styles: 1, image: "images/LFGalianoText.jpg",         font: "fonts/LF Galiano Text.ttf",        id: "LF Galiano Text.ttf" },
   { name: "LF Vermin Verile",        styles: 1, image: "images/LFVerminVerile.jpg",        font: "fonts/LF Vermin Verile.ttf",       id: "LF Vermin Verile.ttf" },
-  { name: "LF Viva La Fiesta",       styles: 1, image: "images/LFVivaLaFiesta.jpg",        font: "fonts/LF Viva La Fiesta - Uno Base.ttf",            id: "LF Viva La Fiesta - Uno Base.ttf" },
   { name: "LF Axel",                 styles: 2, image: "images/LFAxel.jpg",                font: "fonts/LF Axel Regular.ttf",        id: "LF Axel.rar" },
   { name: "LF Plumage",              styles: 1, image: "images/lfplumage.jpg",             font: "fonts/LF Plumage.ttf",             id: "LF Plumage.ttf" },
   { name: "LF Christmas Fecsival",   styles: 1, image: "images/lfchristmasfecsival.jpg",   font: "fonts/LF Christmas Fecsival.ttf",  id: "LF Christmas Fecsival.ttf" },
@@ -50,6 +49,7 @@ const FONTS = [
   { name: "LF Hatter Display Pro",   styles: 1, image: "images/lfhatterdisplaypro.jpg",    font: "fonts/LF Hatter Display Pro.ttf",  id: "LF Hatter Display Pro.ttf" },
   { name: "LF Heycomic",             styles: 1, image: "images/lfheycomic.jpg",            font: "fonts/LF Hey Comic.ttf",            id: "LF Hey Comic.ttf" },
   { name: "LF Hit The Road",         styles: 1, image: "images/lfhittheroad.jpg",          font: "fonts/LF Hit The Road.ttf",        id: "LF Hit The Road.ttf" },
+  { name: "LF Viva La Fiesta",       styles: 1, image: "images/LFVivaLaFiesta.jpg",        font: "fonts/LF Viva La Fiesta - Uno Base.ttf",            id: "LF Viva La Fiesta - Uno Base.ttf" },
   { name: "LF Huggie Bunny",         styles: 1, image: "images/lfhuggiebunny.jpg",         font: "fonts/LF Huggie Bunny.ttf",        id: "LF Huggie Bunny.ttf" },
   { name: "LF Jambie",               styles: 1, image: "images/lfjambie.jpg",              font: "fonts/LF Jambie.ttf",              id: "LF Jambie.ttf" },
   { name: "LF JasmineUpc",           styles: 1, image: "images/lfjasmineupc.jpg",          font: "fonts/LF JasmineUpc.ttf",          id: "LF JasmineUpc.ttf" },
