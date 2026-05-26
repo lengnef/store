@@ -307,6 +307,12 @@ previewSize.addEventListener('input', () => {
 
 // ─── Init ───
 renderFonts(FONTS);
+const targetFont = decodeURIComponent(window.location.hash.slice(1));
+if (targetFont) {
+  searchInput.value = targetFont;
+  searchClear.classList.add('visible');
+  renderFonts(FONTS.filter(f => f.name.toLowerCase().includes(targetFont.toLowerCase())));
+}
 
 // BACK TO TOP
 const backToTopBtn = document.querySelector('.backtotop-btn');
