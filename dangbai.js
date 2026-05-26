@@ -217,7 +217,6 @@ searchClear.addEventListener('click', () => {
 // ─── Load more ───
 loadMoreBtn.addEventListener('click', () => {
   appendBatch();
-  loadMoreBtn.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 // ─── Preview text helpers ───
