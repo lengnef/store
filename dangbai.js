@@ -54,7 +54,7 @@ const FONTS = [
   { name: "LF Viva La Fiesta",       styles: 1, image: "images/LFVivaLaFiesta.jpg",        font: "fonts/LF Viva La Fiesta - Uno Base.ttf",            id: "LF Viva La Fiesta - Uno Base.ttf" },
   { name: "LF Huggie Bunny",         styles: 1, image: "images/lfhuggiebunny.jpg",         font: "fonts/LF Huggie Bunny.ttf",        id: "LF Huggie Bunny.ttf" },
   { name: "LF Jambie",               styles: 1, image: "images/lfjambie.jpg",              font: "fonts/LF Jambie.ttf",              id: "LF Jambie.ttf" },
-  { name: "LF JasmineUpc",           styles: 1, image: "images/lfjasmineupc.jpg",          font: "fonts/LF JasmineUpc.ttf",          id: "LF JasmineUpc.ttf" },
+  { name: "LF JasmineUPC",           styles: 1, image: "images/lfjasmineupc.jpg",          font: "fonts/LF JasmineUPC.ttf",          id: "LF JasmineUPC.ttf" },
   { name: "LF Klaristha",            styles: 1, image: "images/lfklaristha.jpg",           font: "fonts/LF Klaristha.ttf",           id: "LF Klaristha.ttf" },
   { name: "LF Lagona",               styles: 1, image: "images/lflagona.jpg",              font: "fonts/LF Lagona.ttf",              id: "LF Lagona.ttf" },
   { name: "LF Losbanditos",          styles: 1, image: "images/lflosbanditos.jpg",         font: "fonts/LF IFC LOS BANDITOS.ttf",    id: "LF IFC LOS BANDITOS.ttf" },
