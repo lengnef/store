@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Hatton",               styles: 3, image: "images/LFHatton.jpg",              font: "fonts/LF Hatton Regular.ttf",      id: "LF Hatton.zip" },
   { name: "LF Storm Fighter",        styles: 1, image: "images/LFStormFighter.jpg",        font: "fonts/LF Storm Fighter.ttf",       id: "LF Storm Fighter.ttf" },
   { name: "LF Brutal",               styles: 1, image: "images/LFBrutal.jpg",              font: "fonts/LF Brutal.ttf",              id: "LF Brutal.ttf" },
   { name: "LF Maison Neue Book",     styles: 1, image: "images/LFMaisonNeueBook.jpg",      font: "fonts/LF Maison Neue Book.ttf",    id: "LF Maison Neue Book.ttf" },
