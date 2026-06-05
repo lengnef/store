@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Megivia Italic",       styles: 1, image: "images/LFMegiviaItalic.jpg",       font: "fonts/LF Megivia Italic.ttf",      id: "LF Megivia Italic.ttf" },
   { name: "LF CHABUL",               styles: 1, image: "images/LFCHABUL.jpg",              font: "fonts/LF CHABUL.ttf",              id: "LF CHABUL.ttf" },
   { name: "LF Brotherhood Script",   styles: 1, image: "images/LFBrotherhoodScript.jpg",   font: "fonts/LF Brotherhood Script.ttf",  id: "LF Brotherhood Script.ttf" },
   { name: "LF Hatton",               styles: 3, image: "images/LFHatton.jpg",              font: "fonts/LF Hatton Regular.ttf",      id: "LF Hatton.zip" },
