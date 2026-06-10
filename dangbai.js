@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Helenita Dos",         styles: 1, image: "images/LFHelenitaDos.jpg",         font: "fonts/LF Helenita Dos.ttf",        id: "LF Helenita Dos.ttf" },
   { name: "LF Finura",               styles: 2, image: "images/LFFinura.jpg",              font: "fonts/LF Finura Roman.ttf",        id: "LF Finura.zip" },
   { name: "LF Megivia Italic",       styles: 1, image: "images/LFMegiviaItalic.jpg",       font: "fonts/LF Megivia Italic.ttf",      id: "LF Megivia Italic.ttf" },
   { name: "LF CHABUL",               styles: 1, image: "images/LFCHABUL.jpg",              font: "fonts/LF CHABUL.ttf",              id: "LF CHABUL.ttf" },
