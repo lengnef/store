@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Splendid Script",      styles: 1, image: "images/LFSplendidScript.jpg",      font: "fonts/LF Splendid Script.ttf",     id: "LF Splendid Script.ttf" },
   { name: "LF Scaver",               styles: 1, image: "images/LFScaver.jpg",              font: "fonts/LF Scaver Regular.ttf",      id: "LF Scaver Regular.ttf" },
   { name: "LF Gosha Sans",           styles: 3, image: "images/LFGoshaSans.jpg",           font: "fonts/LF Gosha Sans.ttf",          id: "LF Gosha Sans.zip" },
   { name: "LF Helenita Dos",         styles: 1, image: "images/LFHelenitaDos.jpg",         font: "fonts/LF Helenita Dos.ttf",        id: "LF Helenita Dos.ttf" },
