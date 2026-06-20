@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Palm Canyon Drive",    styles: 1, image: "images/LFPalmCanyonDrive.jpg",     font: "fonts/LF Palm Canyon Drive.ttf",   id: "LF Palm Canyon Drive.ttf" },
   { name: "LF Masmuseh",             styles: 1, image: "images/LFMasmuseh.jpg",            font: "fonts/LF Masmuseh.ttf",            id: "LF Masmuseh.ttf" },
   { name: "LF Sandraloka",           styles: 1, image: "images/LFSandraloka.jpg",          font: "fonts/LF Sandraloka.ttf",          id: "LF Sandraloka.ttf" },
   { name: "LF Budge",                styles: 1, image: "images/LFBudge.jpg",               font: "fonts/LF Budge.ttf",               id: "LF Budge.ttf" },
