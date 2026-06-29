@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Avalen Rekas",         styles: 1, image: "images/LFAvalenRekas.jpg",         font: "fonts/LF Avalen Rekas.ttf",        id: "LF Avalen Rekas.ttf" },
   { name: "LF Histogram",            styles: 1, image: "images/LFHistogram.jpg",           font: "fonts/LF Histogram.ttf",           id: "LF Histogram.ttf" },
   { name: "LF Chalkcoal",            styles: 1, image: "images/LFChalkcoal.jpg",           font: "fonts/LF Chalkcoal.ttf",           id: "LF Chalkcoal.ttf" },
   { name: "LF Palm Canyon Drive",    styles: 1, image: "images/LFPalmCanyonDrive.jpg",     font: "fonts/LF Palm Canyon Drive.ttf",   id: "LF Palm Canyon Drive.ttf" },
