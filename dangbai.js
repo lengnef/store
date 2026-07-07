@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Belanosima",           styles: 1, image: "images/LFBelanosima.jpg",          font: "fonts/LF Belanosima.ttf",          id: "LF Belanosima.ttf" },
   { name: "LF Symphony Pro",         styles: 1, image: "images/LFSymphonyPro.jpg",         font: "fonts/LF Symphony Pro.ttf",        id: "LF Symphony Pro.ttf" },
   { name: "LF Avalen Rekas",         styles: 1, image: "images/LFAvalenRekas.jpg",         font: "fonts/LF Avalen Rekas.ttf",        id: "LF Avalen Rekas.ttf" },
   { name: "LF Histogram",            styles: 1, image: "images/LFHistogram.jpg",           font: "fonts/LF Histogram.ttf",           id: "LF Histogram.ttf" },
