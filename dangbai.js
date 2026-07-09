@@ -18,6 +18,8 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Cheese Milky",         styles: 1, image: "images/LFCheeseMilky.jpg",         font: "fonts/LF Cheese Milky.ttf",        id: "LF Cheese Milky.ttf" },
+  { name: "LF Curve Retro",          styles: 1, image: "images/LFCurveRetro.jpg",          font: "fonts/LF Curve Retro.ttf",         id: "LF Curve Retro.ttf" },
   { name: "LF Belanosima",           styles: 1, image: "images/LFBelanosima.jpg",          font: "fonts/LF Belanosima.ttf",          id: "LF Belanosima.ttf" },
   { name: "LF Symphony Pro",         styles: 1, image: "images/LFSymphonyPro.jpg",         font: "fonts/LF Symphony Pro.ttf",        id: "LF Symphony Pro.ttf" },
   { name: "LF Avalen Rekas",         styles: 1, image: "images/LFAvalenRekas.jpg",         font: "fonts/LF Avalen Rekas.ttf",        id: "LF Avalen Rekas.ttf" },
