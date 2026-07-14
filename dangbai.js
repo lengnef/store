@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Stardew Valley",       styles: 1, image: "images/LFStardewValley.jpg",       font: "fonts/LF Stardew Valley ALL CAPS.ttf",        id: "LF Stardew Valley ALL CAPS.ttf" },
   { name: "LF Cheese Milky",         styles: 1, image: "images/LFCheeseMilky.jpg",         font: "fonts/LF Cheese Milky.ttf",        id: "LF Cheese Milky.ttf" },
   { name: "LF Curve Retro",          styles: 1, image: "images/LFCurveRetro.jpg",          font: "fonts/LF Curve Retro.ttf",         id: "LF Curve Retro.ttf" },
   { name: "LF Belanosima",           styles: 1, image: "images/LFBelanosima.jpg",          font: "fonts/LF Belanosima.ttf",          id: "LF Belanosima.ttf" },
