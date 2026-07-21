@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Feinlag",              styles: 1, image: "images/LFFeinlag.jpg",             font: "fonts/LF Feinlag.ttf",             id: "LF Feinlag.ttf" },
   { name: "LF Bi",                   styles: 1, image: "images/LFBi.jpg",                  font: "fonts/LF Bi.ttf",                  id: "LF Bi.ttf" },
   { name: "LF Stardew Valley",       styles: 1, image: "images/LFStardewValley.jpg",       font: "fonts/LF Stardew Valley ALL CAPS.ttf",        id: "LF Stardew Valley ALL CAPS.ttf" },
   { name: "LF Cheese Milky",         styles: 1, image: "images/LFCheeseMilky.jpg",         font: "fonts/LF Cheese Milky.ttf",        id: "LF Cheese Milky.ttf" },
