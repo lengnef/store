@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF LF Avinga",            styles: 1, image: "images/LFAvinga.jpg",              font: "fonts/LF Avinga.ttf",              id: "LF Avinga.ttf" },
   { name: "LF Minecraft Ten",        styles: 1, image: "images/LFMinecraftTen.jpg",        font: "fonts/LF Minecraft Ten.ttf",       id: "LF Minecraft Ten.ttf" },
   { name: "LF Feinlag",              styles: 1, image: "images/LFFeinlag.jpg",             font: "fonts/LF Feinlag.ttf",             id: "LF Feinlag.ttf" },
   { name: "LF Bi",                   styles: 1, image: "images/LFBi.jpg",                  font: "fonts/LF Bi.ttf",                  id: "LF Bi.ttf" },
