@@ -18,6 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+  { name: "LF Rose Gard",            styles: 1, image: "images/LFRRoseGard.jpg",           font: "fonts/LF Rose Gard.ttf",           id: "LF Rose Gard.ttf" },
   { name: "LF Reggae One",           styles: 1, image: "images/LFReggaeOne.jpg",           font: "fonts/LF Reggae One.ttf",          id: "LF Reggae One.ttf" },
   { name: "LF Avinga",               styles: 1, image: "images/LFAvinga.jpg",              font: "fonts/LF Avinga.ttf",              id: "LF Avinga.ttf" },
   { name: "LF Minecraft Ten",        styles: 1, image: "images/LFMinecraftTen.jpg",        font: "fonts/LF Minecraft Ten.ttf",       id: "LF Minecraft Ten.ttf" },
