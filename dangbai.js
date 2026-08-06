@@ -18,7 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-  { name: "LF Virlyn",               styles: 1, image: "images/LFVirlyn.jpg",              font: "#",              id: "#" },
+  { name: "LF Virlyn",               styles: 1, image: "images/LFVirlyn.jpg",              font: "LF Virlyn.ttf",                    id: "LF Virlyn.ttf" },
   { name: "LF Mackin",               styles: 1, image: "images/LFMackin.jpg",              font: "fonts/LF Mackin.ttf",              id: "LF Mackin.ttf" },
   { name: "LF Rose Gard",            styles: 1, image: "images/LFRoseGard.jpg",            font: "fonts/LF Rose Gard.ttf",           id: "LF Rose Gard.ttf" },
   { name: "LF Reggae One",           styles: 1, image: "images/LFReggaeOne.jpg",           font: "fonts/LF Reggae One.ttf",          id: "LF Reggae One.ttf" },
