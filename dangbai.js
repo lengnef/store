@@ -18,7 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-  { name: "LF Bolgifam Script",      styles: 1, image: "images/LFBolgifamScript.jpg",      font: "fonts/LF BolgifamScript",          id: "LF BolgifamScript" },
+  { name: "LF Bolgifam Script",      styles: 1, image: "images/LFBolgifamScript.jpg",      font: "fonts/LF BolgifamScript.ttf",          id: "LF BolgifamScript.ttf" },
   { name: "LF Cutline",              styles: 1, image: "images/LFCutline.jpg",             font: "fonts/LF Cutline.ttf",             id: "LF Cutline.ttf" },
   { name: "LF Virlyn",               styles: 1, image: "images/LFVirlyn.jpg",              font: "fonts/LF Virlyn.ttf",              id: "LF Virlyn.ttf" },
   { name: "LF Mackin",               styles: 1, image: "images/LFMackin.jpg",              font: "fonts/LF Mackin.ttf",              id: "LF Mackin.ttf" },
