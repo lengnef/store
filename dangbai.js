@@ -18,7 +18,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-  { name: "LF Hi Barbie",            styles: 1, image: "images/LFHiBarbie.jpg",            font: "#",             id: "#" },
+  { name: "LF Hi Barbie",            styles: 1, image: "images/LFHiBarbie.jpg",            font: "fonts/LF Hi Barbie.ttf",           id: "LF Hi Barbie.ttf" },
   { name: "LF Mileast",              styles: 1, image: "images/LFMileast.jpg",             font: "fonts/LF Mileast.ttf",             id: "LF Mileast.ttf" },
   { name: "LF Cherry Blossom",       styles: 1, image: "images/LFCherryBlossom.jpg",       font: "fonts/LF Cherry Blossom.ttf",      id: "LF Cherry Blossom.ttf" },
   { name: "LF Bolgifam Script",      styles: 1, image: "images/LFBolgifamScript.jpg",      font: "fonts/LF BolgifamScript.ttf",      id: "LF BolgifamScript.ttf" },
