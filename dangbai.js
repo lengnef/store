@@ -19,7 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
-  { name: "LF Saga Arjuna",          styles: 1, image: "images/LFSagaArjuna.jpg",          font: "#",           id: "#" },
+  { name: "LF Saga Arjuna",          styles: 1, image: "images/LFSagaArjuna.jpg",          font: "fonts/LF Saga Arjuna.ttf",         id: "LF Saga Arjuna.ttf" },
   { name: "LF Hi Barbie",            styles: 1, image: "images/LFHiBarbie.jpg",            font: "fonts/LF Hi Barbie.ttf",           id: "LF Hi Barbie.ttf" },
   { name: "LF Mileast",              styles: 1, image: "images/LFMileast.jpg",             font: "fonts/LF Mileast.ttf",             id: "LF Mileast.ttf" },
   { name: "LF Cherry Blossom",       styles: 1, image: "images/LFCherryBlossom.jpg",       font: "fonts/LF Cherry Blossom.ttf",      id: "LF Cherry Blossom.ttf" },
