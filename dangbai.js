@@ -19,11 +19,12 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Cinnamon",             styles: 1, image: "images/LFCinnamon.jpg",            font: "fonts/LF Cinnamon.ttf",            id: "LF Cinnamon.ttf" },
   { name: "LF Brainstroke Condensed",        styles: 1, image: "images/LFBrainstrokeCondensed.jpg",          font: "fonts/LF Brainstroke Condensed.ttf",         id: "LF Brainstroke Condensed.ttf" },
   { name: "LF Saga Arjuna",          styles: 1, image: "images/LFSagaArjuna.jpg",          font: "fonts/LF Saga Arjuna.ttf",         id: "LF Saga Arjuna.ttf" },
   { name: "LF Hi Barbie",            styles: 1, image: "images/LFHiBarbie.jpg",            font: "fonts/LF Hi Barbie.ttf",           id: "LF Hi Barbie.ttf" },
   { name: "LF Mileast",              styles: 1, image: "images/LFMileast.jpg",             font: "fonts/LF Mileast.ttf",             id: "LF Mileast.ttf" },
-  { name: "LF Cherry Blossom",       styles: 1, image: "images/LFCherryBlossom.jpg",       font: "fonts/LF Cherry Blossom.ttf",      id: "LF Cherry Blossom.zip" },
+  { name: "LF Cherry Blossom",       styles: 2, image: "images/LFCherryBlossom.jpg",       font: "fonts/LF Cherry Blossom.ttf",      id: "LF Cherry Blossom.zip" },
   { name: "LF Bolgifam Script",      styles: 1, image: "images/LFBolgifamScript.jpg",      font: "fonts/LF BolgifamScript.ttf",      id: "LF BolgifamScript.ttf" },
   { name: "LF Cutline",              styles: 1, image: "images/LFCutline.jpg",             font: "fonts/LF Cutline.ttf",             id: "LF Cutline.ttf" },
   { name: "LF Virlyn",               styles: 1, image: "images/LFVirlyn.jpg",              font: "fonts/LF Virlyn.ttf",              id: "LF Virlyn.ttf" },
