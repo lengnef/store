@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Graffiti Classic",     styles: 1, image: "images/LFGraffitiClassicn.jpg",            font: "#",            id: "#" },
   { name: "LF Cinnamon",             styles: 1, image: "images/LFCinnamon.jpg",            font: "fonts/LF Cinnamon.ttf",            id: "LF Cinnamon.ttf" },
   { name: "LF Brainstroke Condensed",        styles: 1, image: "images/LFBrainstrokeCondensed.jpg",          font: "fonts/LF Brainstroke Condensed.ttf",         id: "LF Brainstroke Condensed.ttf" },
   { name: "LF Saga Arjuna",          styles: 1, image: "images/LFSagaArjuna.jpg",          font: "fonts/LF Saga Arjuna.ttf",         id: "LF Saga Arjuna.ttf" },
