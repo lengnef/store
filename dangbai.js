@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Nova Square",          styles: 1, image: "images/LFNovaSquare.jpg",          font: "fonts/LF Nova Square.ttf",         id: "LF Nova Square.ttf" },
   { name: "LF Graffiti Classic",     styles: 1, image: "images/LFGraffitiClassic.jpg",            font: "#",            id: "#" },
   { name: "LF Cinnamon",             styles: 1, image: "images/LFCinnamon.jpg",            font: "fonts/LF Cinnamon.ttf",            id: "LF Cinnamon.ttf" },
   { name: "LF Brainstroke Condensed",        styles: 1, image: "images/LFBrainstrokeCondensed.jpg",          font: "fonts/LF Brainstroke Condensed.ttf",         id: "LF Brainstroke Condensed.ttf" },
