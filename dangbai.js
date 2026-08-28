@@ -18,6 +18,8 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
+
+  { name: "LF Negrita Pro",          styles: 1, image: "images/LFNegritaPro.jpg",          font: "#",         id: "#" },
   { name: "LF H.H. Samuel",          styles: 1, image: "images/LFH.H.Samuel.jpg",          font: "fonts/LF H.H. Samuel.ttf",         id: "LF H.H. Samuel.ttf" },
   { name: "LF Runholdy",             styles: 1, image: "images/LFRunholdy.jpg",            font: "#",         id: "#" },
   { name: "LF Nova Square",          styles: 1, image: "images/LFNovaSquare.jpg",          font: "fonts/LF Nova Square.ttf",         id: "LF Nova Square.ttf" },
