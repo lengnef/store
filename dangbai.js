@@ -19,9 +19,10 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF French Kiss",          styles: 1, image: "images/LFFrenchKiss.jpg",         font: "#",              id: "#" },
   { name: "LF Akbaal",               styles: 1, image: "images/LFAkbaal.jpg",              font: "fonts/LF Akbaal.ttf",              id: "LF Akbaal.ttf" },
   { name: "LF Sweet Peachy",         styles: 1, image: "images/LFSweetPeachy.jpg",         font: "fonts/LF Sweet Peachy.ttf",        id: "LF Sweet Peachy.ttf" },
-  { name: "LF Negrita Pro",          styles: 1, image: "images/LFNegritaPro.jpg",          font: "#",         id: "#" },
+  { name: "LF Negrita Pro",          styles: 1, image: "images/LFNegritaPro.jpg",          font: "fonts/LF Negrita Pro.ttf",         id: "LF Negrita Pro.ttf" },
   { name: "LF H.H. Samuel",          styles: 1, image: "images/LFH.H.Samuel.jpg",          font: "fonts/LF H.H. Samuel.ttf",         id: "LF H.H. Samuel.ttf" },
   { name: "LF Runholdy",             styles: 1, image: "images/LFRunholdy.jpg",            font: "fonts/LF Runholdy.ttf",            id: "LF Runholdy.ttf" },
   { name: "LF Nova Square",          styles: 1, image: "images/LFNovaSquare.jpg",          font: "fonts/LF Nova Square.ttf",         id: "LF Nova Square.ttf" },
