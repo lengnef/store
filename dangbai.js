@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF JNR-SB-Font",          styles: 1, image: "images/LFJNR-SB-Font.jpg",         font: "fonts/LF JNR-SB-Font.ttf",         id: "LF JNR-SB-Font.ttf" },
   { name: "LF Didoska",              styles: 1, image: "images/LFDidoska.jpg",             font: "fonts/LF Didoska.ttf",             id: "LF Didoska.ttf" },
   { name: "LF French Kiss",          styles: 1, image: "images/LFFrenchKiss.jpg",          font: "fonts/LF French Kiss.ttf",         id: "LF French Kiss.ttf" },
   { name: "LF Akbaal",               styles: 1, image: "images/LFAkbaal.jpg",              font: "fonts/LF Akbaal.ttf",              id: "LF Akbaal.ttf" },
