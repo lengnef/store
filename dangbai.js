@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Providence",           styles: 1, image: "images/LFProvidence.jpg",          font: "fonts/LF Providence.ttf",          id: "LF Providence.ttf" },
   { name: "LF Thang",                styles: 1, image: "images/LFThang.jpg",               font: "#",         id: "#" },
   { name: "LF JNR-SB-Font",          styles: 1, image: "images/LFJNR-SB-Font.jpg",         font: "fonts/LF JNR-SB-Font.ttf",         id: "LF JNR-SB-Font.ttf" },
   { name: "LF Didoska",              styles: 1, image: "images/LFDidoska.jpg",             font: "fonts/LF Didoska.ttf",             id: "LF Didoska.ttf" },
