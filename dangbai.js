@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Discoteca Rounded",    styles: 1, image: "images/LFDiscotecaRounded.jpg",    font: "fonts/LF Discoteca Rounded.ttf",   id: "LF Discoteca Rounded.ttf" },
   { name: "LF Streetbrush",          styles: 1, image: "images/LFStreetbrush.jpg",               font: "#",         id: "#" },
   { name: "LF Providence",           styles: 1, image: "images/LFProvidence.jpg",          font: "fonts/LF Providence.ttf",          id: "LF Providence.ttf" },
   { name: "LF Thang",                styles: 1, image: "images/LFThang.jpg",               font: "#",         id: "#" },
