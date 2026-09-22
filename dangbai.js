@@ -22,7 +22,7 @@ const FONTS = [
 
   { name: "LF Bing Boss",            styles: 1, image: "images/LFBingBoss.jpg",            font: "fonts/LF Bing Boss.ttf",           id: "LF Bing Boss.ttf" },
   { name: "LF Discoteca Rounded",    styles: 1, image: "images/LFDiscotecaRounded.jpg",    font: "fonts/LF Discoteca Rounded.ttf",   id: "LF Discoteca Rounded.ttf" },
-  { name: "LF Streetbrush",          styles: 1, image: "images/LFStreetbrush.jpg",         font: "fonts/LF Streetbrush.ttf",         id: "fonts/LF Streetbrush.ttf" },
+  { name: "LF Streetbrush",          styles: 1, image: "images/LFStreetbrush.jpg",         font: "fonts/LF Streetbrush.ttf",         id: "LF Streetbrush.ttf" },
   { name: "LF Providence",           styles: 1, image: "images/LFProvidence.jpg",          font: "fonts/LF Providence.ttf",          id: "LF Providence.ttf" },
   { name: "LF Thang",                styles: 1, image: "images/LFThang.jpg",               font: "fonts/LF Thang.ttf",               id: "LF Thang.ttf" },
   { name: "LF JNR-SB-Font",          styles: 1, image: "images/LFJNR-SB-Font.jpg",         font: "fonts/LF JNR-SB-Font.ttf",         id: "LF JNR-SB-Font.ttf" },
