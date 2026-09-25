@@ -20,6 +20,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 const FONTS = [
 
 
+  { name: "LF Distant Stroke",       styles: 1, image: "images/LFDistantStroke.jpg",       font: "#",             id: "#" },
   { name: "LF Thegora",              styles: 1, image: "images/LFThegora.jpg",             font: "fonts/LF Thegora.ttf",             id: "LF Thegora.ttf" },
   { name: "LF Bing Boss",            styles: 1, image: "images/LFBingBoss.jpg",            font: "fonts/LF Bing Boss.ttf",           id: "LF Bing Boss.ttf" },
   { name: "LF Discoteca Rounded",    styles: 1, image: "images/LFDiscotecaRounded.jpg",    font: "fonts/LF Discoteca Rounded.ttf",   id: "LF Discoteca Rounded.ttf" },
