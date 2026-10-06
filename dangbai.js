@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Cute Mint Choco",      styles: 1, image: "images/LFCuteMintChoco.jpg",       font: "fonts/LF Cute Mint Choco.ttf",     id: "LF Cute Mint Choco.ttf" },
   { name: "LF Thesignature",         styles: 1, image: "images/LFThesignature.jpg",        font: "#",              id: "#" },
   { name: "LF Louise",               styles: 1, image: "images/LFLouise.jpg",              font: "fonts/LF Louise.ttf",              id: "LF Louise.ttf" },
   { name: "LF Distant Stroke",       styles: 1, image: "images/LFDistantStroke.jpg",       font: "fonts/LF Distant Stroke.ttf",      id: "LF Distant Stroke.ttf" },
