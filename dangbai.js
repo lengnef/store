@@ -19,9 +19,9 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
-  { name: "LF Daizen",               styles: 1, image: "images/LFDaizen.jpg",              font: "#",              id: "#" },
+  { name: "LF Daizen",               styles: 1, image: "images/LFDaizen.jpg",              font: "fonts/LF Daizen.ttf",              id: "LF Daizen.ttf" },
   { name: "LF Cute Mint Choco",      styles: 1, image: "images/LFCuteMintChoco.jpg",       font: "fonts/LF Cute Mint Choco.ttf",     id: "LF Cute Mint Choco.ttf" },
-  { name: "LF Thesignature",         styles: 1, image: "images/LFThesignature.jpg",        font: "#",              id: "#" },
+  { name: "LF Thesignature",         styles: 1, image: "images/LFThesignature.jpg",        font: "fonts/LF Thesignature.ttf",        id: "LF Thesignature.ttf" },
   { name: "LF Louise",               styles: 1, image: "images/LFLouise.jpg",              font: "fonts/LF Louise.ttf",              id: "LF Louise.ttf" },
   { name: "LF Distant Stroke",       styles: 1, image: "images/LFDistantStroke.jpg",       font: "fonts/LF Distant Stroke.ttf",      id: "LF Distant Stroke.ttf" },
   { name: "LF Thegora",              styles: 1, image: "images/LFThegora.jpg",             font: "fonts/LF Thegora.ttf",             id: "LF Thegora.ttf" },
