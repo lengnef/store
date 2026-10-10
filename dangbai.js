@@ -18,7 +18,8 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-
+   
+  { name: "LF HYHuaGuan",            styles: 1, image: "images/LFHYHuaGuan.jpg",           font: "fonts/LF HYHuaGuan.ttf",           id: "LF HYHuaGuan.ttf" },
   { name: "LF Pushkin",              styles: 1, image: "images/LFPushkin.jpg",             font: "fonts/LF Pushkin.ttf",             id: "LF Pushkin.ttf" },
   { name: "LF MOONLuvMallow",        styles: 1, image: "images/LFMOONLuvMallow.jpg",       font: "fonts/LF MOONLuvMallow-Semibold.ttf",        id: "LF MOONLuvMallow-Semibold.ttf" },
   { name: "LF Daizen",               styles: 1, image: "images/LFDaizen.jpg",              font: "fonts/LF Daizen.ttf",              id: "LF Daizen.ttf" },
