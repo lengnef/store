@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Angelica",             styles: 1, image: "images/LFAngelica.jpg",            font: "fonts/LF Angelica.ttf",            id: "LF Angelica.ttf" },
   { name: "LF Pontiff Wide",         styles: 1, image: "images/LFPontiffWide.jpg",         font: "#",           id: "#" },
   { name: "LF HYHuaGuan",            styles: 1, image: "images/LFHYHuaGuan.jpg",           font: "fonts/LF HYHuaGuan.ttf",           id: "LF HYHuaGuan.ttf" },
   { name: "LF Pushkin",              styles: 1, image: "images/LFPushkin.jpg",             font: "fonts/LF Pushkin.ttf",             id: "LF Pushkin.ttf" },
