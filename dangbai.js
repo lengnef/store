@@ -19,6 +19,8 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Spookyy",              styles: 1, image: "images/LFSpookyy.jpg",             font: "fonts/LF Spookyy.ttf",             id: "LF Spookyy.ttf" },
+  { name: "LF Block",                styles: 1, image: "images/LFBlock.jpg",               font: "fonts/LF Block.ttf",               id: "LF Block.ttf" },
   { name: "LF Ratna",                styles: 1, image: "images/LFRatna.jpg",               font: "fonts/LF Ratna.ttf",               id: "LF Ratna.ttf" },
   { name: "LF Quttilena",            styles: 1, image: "images/LFQuttilena.jpg",           font: "fonts/LF Quttilena.ttf",           id: "LF Quttilena.ttf" },
   { name: "LF Angelica",             styles: 1, image: "images/LFAngelica.jpg",            font: "fonts/LF Angelica.ttf",            id: "LF Angelica.ttf" },
