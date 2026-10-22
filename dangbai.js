@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Magic Story",          styles: 1, image: "images/LFMagicStory.jpg",          font: "fonts/LF Magic Story.ttf",         id: "LF Magic Story.ttf" },
   { name: "LF Desirable Calligraphy",          styles: 1, image: "images/LFDesirableCalligraphy.jpg",          font: "fonts/LF Desirable Calligraphy.ttf",         id: "LF Desirable Calligraphy.ttf" },
   { name: "LF Study Notes",          styles: 1, image: "images/LFStudyNotes.jpg",          font: "fonts/LF Study Notes.ttf",         id: "LF Study Notes.ttf" },
   { name: "LF Sacred Letter",        styles: 1, image: "images/LFSacredLetter.jpg",        font: "fonts/LF Sacred Letter.ttf",       id: "LF Sacred Letter.ttf" },
