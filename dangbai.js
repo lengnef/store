@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Picturama",            styles: 1, image: "images/LFPicturama.jpg",           font: "#",            id: "LF Picturama.zip" },
   { name: "LF Refrigerator Deluxe",  styles: 1, image: "images/LFRefrigeratorDeluxe.jpg",  font: "fonts/LF Refrigerator Deluxe.ttf", id: "LF Refrigerator Deluxe.ttf" },
   { name: "LF Citation",             styles: 1, image: "images/LFCitation.jpg",            font: "fonts/LF Citation.ttf",            id: "LF Citation.ttf" },
   { name: "LF Magic Story",          styles: 1, image: "images/LFMagicStory.jpg",          font: "fonts/LF Magic Story.ttf",         id: "LF Magic Story.ttf" },
