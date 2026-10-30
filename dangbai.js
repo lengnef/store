@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Kirbe",                styles: 1, image: "images/LFKirbe.jpg",               font: "#",            id: "LF Kirbe.zip" },
   { name: "LF Mistletoe Magic",      styles: 1, image: "images/LFMistletoeMagic.jpg",      font: "#",            id: "LF Mistletoe Magic.zip" },
   { name: "LF Folty Bold",           styles: 1, image: "images/LFFoltyBold.jpg",           font: "#",            id: "LF Folty.zip" },
   { name: "LF Picturama",            styles: 1, image: "images/LFPicturama.jpg",           font: "fonts/LF Picturama Founder.ttf",   id: "LF Picturama.zip" },
