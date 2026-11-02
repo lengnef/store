@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Hagia Signature",      styles: 1, image: "images/LFHagiaSignature.jpg",      font: "#",            id: "LF Hagia Signature.zip" },
   { name: "LF Kirbe",                styles: 1, image: "images/LFKirbe.jpg",               font: "#",            id: "LF Kirbe.zip" },
   { name: "LF Mistletoe Magic",      styles: 1, image: "images/LFMistletoeMagic.jpg",      font: "#",            id: "LF Mistletoe Magic.zip" },
   { name: "LF Folty Bold",           styles: 1, image: "images/LFFoltyBold.jpg",           font: "#",            id: "LF Folty.zip" },
