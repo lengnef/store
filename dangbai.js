@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF CC-Soft Edge",         styles: 1, image: "images/LFCC-SoftEdge.jpg",         font: "#",            id: "LF CC-Soft Edge.zip" },
   { name: "LF Minthas Script",       styles: 1, image: "images/LFMinthasScript.jpg",       font: "#",            id: "LF Minthas Script.zip" },
   { name: "LF Anaktoria",            styles: 1, image: "images/LFAnaktoria.jpg",           font: "#",            id: "LF Anaktoria.zip" },
   { name: "LF Hagia Signature",      styles: 1, image: "images/LFHagiaSignature.jpg",      font: "#",            id: "LF Hagia Signature.zip" },
