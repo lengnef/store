@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Malam Poek",           styles: 1, image: "images/LFMalamPoek.jpg",           font: "#",            id: "LF Malam Poek.zip" },
   { name: "LF FC Sati",              styles: 1, image: "images/LFFCSati.jpg",              font: "#",            id: "LF FC Sati.zip" },
   { name: "LF CC-Soft Edge",         styles: 1, image: "images/LFCC-SoftEdge.jpg",         font: "#",            id: "LF CC-Soft Edge.zip" },
   { name: "LF Minthas Script",       styles: 1, image: "images/LFMinthasScript.jpg",       font: "#",            id: "LF Minthas Script.zip" },
