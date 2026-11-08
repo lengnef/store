@@ -23,7 +23,7 @@ const FONTS = [
   { name: "LF FC Sati",              styles: 1, image: "images/LFFCSati.jpg",              font: "#",            id: "LF FC Sati.zip" },
   { name: "LF CC-Soft Edge",         styles: 1, image: "images/LFCC-SoftEdge.jpg",         font: "#",            id: "LF CC-Soft Edge.zip" },
   { name: "LF Minthas Script",       styles: 1, image: "images/LFMinthasScript.jpg",       font: "#",            id: "LF Minthas Script.zip" },
-  { name: "LF Anaktoria",            styles: 1, image: "images/LFAnaktoria.jpg",           font: "#",            id: "LF Anaktoria.zip" },
+  { name: "LF Anaktoria",            styles: 1, image: "images/LFAnaktoria.jpg",           font: "fonts/LF Anaktoria.ttf",           id: "LF Anaktoria.ttf" },
   { name: "LF Hagia Signature",      styles: 1, image: "images/LFHagiaSignature.jpg",      font: "#",            id: "LF Hagia Signature.zip" },
   { name: "LF Kirbe",                styles: 1, image: "images/LFKirbe.jpg",               font: "#",            id: "LF Kirbe.zip" },
   { name: "LF Mistletoe Magic",      styles: 1, image: "images/LFMistletoeMagic.jpg",      font: "#",            id: "LF Mistletoe Magic.zip" },
