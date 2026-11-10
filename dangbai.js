@@ -18,7 +18,8 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-
+   
+  { name: "LF Cloudy",               styles: 1, image: "images/LFCloudy.jpg",              font: "#",            id: "LF Cloudy.zip" },
   { name: "LF Darkbloom",            styles: 1, image: "images/LFDarkbloom.jpg",           font: "#",            id: "LF Darkbloom.zip" },
   { name: "LF Malam Poek",           styles: 1, image: "images/LFMalamPoek.jpg",           font: "fonts/LF Malam Poek.ttf",          id: "LF Malam Poek.ttf" },
   { name: "LF FC Sati",              styles: 1, image: "images/LFFCSati.jpg",              font: "#",            id: "LF FC Sati.zip" },
