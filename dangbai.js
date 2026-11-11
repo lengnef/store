@@ -18,7 +18,8 @@ function loadFontIfNeeded(fontName, fontFile) {
 }
 
 const FONTS = [
-   
+
+  { name: "LF Lokeya",               styles: 2, image: "images/LFLokeya.jpg",              font: "#",            id: "LF Lokeya.zip" },
   { name: "LF Cloudy",               styles: 1, image: "images/LFCloudy.jpg",              font: "#",            id: "LF Cloudy.zip" },
   { name: "LF Darkbloom",            styles: 1, image: "images/LFDarkbloom.jpg",           font: "#",            id: "LF Darkbloom.zip" },
   { name: "LF Malam Poek",           styles: 1, image: "images/LFMalamPoek.jpg",           font: "fonts/LF Malam Poek.ttf",          id: "LF Malam Poek.ttf" },
@@ -30,7 +31,7 @@ const FONTS = [
   { name: "LF Kirbe",                styles: 1, image: "images/LFKirbe.jpg",               font: "#",            id: "LF Kirbe.zip" },
   { name: "LF Mistletoe Magic",      styles: 1, image: "images/LFMistletoeMagic.jpg",      font: "#",            id: "LF Mistletoe Magic.zip" },
   { name: "LF Folty Bold",           styles: 1, image: "images/LFFoltyBold.jpg",           font: "#",            id: "LF Folty.zip" },
-  { name: "LF Picturama",            styles: 1, image: "images/LFPicturama.jpg",           font: "fonts/LF Picturama Founder.ttf",   id: "LF Picturama.zip" },
+  { name: "LF Picturama",            styles: 2, image: "images/LFPicturama.jpg",           font: "fonts/LF Picturama Founder.ttf",   id: "LF Picturama.zip" },
   { name: "LF Refrigerator Deluxe",  styles: 1, image: "images/LFRefrigeratorDeluxe.jpg",  font: "fonts/LF Refrigerator Deluxe.ttf", id: "LF Refrigerator Deluxe.ttf" },
   { name: "LF Citation",             styles: 1, image: "images/LFCitation.jpg",            font: "fonts/LF Citation.ttf",            id: "LF Citation.ttf" },
   { name: "LF Magic Story",          styles: 1, image: "images/LFMagicStory.jpg",          font: "fonts/LF Magic Story.ttf",         id: "LF Magic Story.ttf" },
