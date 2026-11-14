@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Gares",                styles: 1, image: "images/LFGares.jpg",               font: "#",            id: "LF Gares.zip" },
   { name: "LF Lokeya",               styles: 2, image: "images/LFLokeya.jpg",              font: "#",            id: "LF Lokeya.zip" },
   { name: "LF Cloudy",               styles: 1, image: "images/LFCloudy.jpg",              font: "#",            id: "LF Cloudy.zip" },
   { name: "LF Darkbloom",            styles: 1, image: "images/LFDarkbloom.jpg",           font: "#",            id: "LF Darkbloom.zip" },
