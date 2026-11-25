@@ -19,6 +19,7 @@ function loadFontIfNeeded(fontName, fontFile) {
 
 const FONTS = [
 
+  { name: "LF Panamericana",         styles: 1, image: "images/LFPanamericana.jpg",        font: "#",            id: "LF Panamericana.zip" },
   { name: "LF Bisoca",               styles: 1, image: "images/LFBisoca.jpg",              font: "#",            id: "LF Bisoca.zip" },
   { name: "LF FlubBob",              styles: 1, image: "images/LFFlubBob.jpg",             font: "#",            id: "LF FlubBob.zip" },
   { name: "LF Christmas Angely",     styles: 1, image: "images/LFChristmasAngely.jpg",     font: "#",            id: "LF Christmas Angely.zip" },
